@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    text-decoration:none;
+}
+body{
+    font-family:DM Sans;
+}
+/* shared styling start  */
+.primary-btn{
+    border:1px solid #ffffff;
+    background:white;
+    padding:0.5rem 0.8rem;
+    margin-right:1rem;
+    border-radius:0.25rem;
+    color:#8D448B;
+    font-weight:600;
+    transition:all 0.4s ease;
+}
+.primary-btn:hover{
+    background:transparent;
+    color:white;
+}
+/* shared styling end */
+/* navbar styling start  */
+nav{
+    width:100%;
+    height:5rem;
+    background-color:purple;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition:all 0.4s ease;
+}
+label.logo{
+    color:white;
+    font-size:2.5rem;
+    font-weight:600;
+    margin-left:1rem;
+    transition:all 0.4s ease;
+}
+
+nav ul li{
+    display:inline-block;
+    margin-right:1rem;
+    transition:all 0.4s ease;
+}
+nav ul li a{
+    color:white;
+    font-weight:600;
+    font-size:0.8rem;
+    padding:0.3rem 1rem;
+    border-radius:.25rem;
+    transition:all 0.4s ease;
+}
+.active,a:hover{
+    background-color:rgb(238, 110, 231);
+    transition:all 0.4s ease;
+}
+.checkbtn{
+    font-size:2rem;
+    position:absolute;
+    right:0;
+    margin-right:2rem;
+    cursor:pointer;
+    transition:all 0.4s ease;
+    display:none;
+    transition:all 0.4s ease;
+}
+#check{
+    display:none;
+    transition:all 0.4s ease;
+}
+/* navbar styling end  */
+/* responsive tablet approach start  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    label.logo{
+        font-size:3rem;
+        transition:all 0.4s ease;
+    }
+    .checkbtn{
+        display:block;
+        transition:all 0.4s ease;
+    }
+    ul{
+        position:fixed;
+        width:100%;
+        height:auto;
+        bottom:100%;
+        left:100%;
+        text-align:center;
+        background-color:#8D448B;
+        transition:all 0.4s ease;
+    }
+    nav ul li{
+        display:block;
+        line-height:3rem;
+        transition:all 0.4s ease;
+    }
+    .active{
+        background-color:#8D448B;
+        transition:all 0.4s ease;
+    }
+    nav ul li a{
+        color:rgb(255, 255, 255);
+        transition:all 0.4s ease;
+    }
+    nav button{
+        display:none;
+        transition:all 0.4s ease;
+    }
+    #check:checked~ul{
+        bottom:43.3rem;
+        left:0;
+        transition:all 0.4s ease;
+    }
+}
+/* responsive table approach end */
+/* responsive mobile approach start  */
+@media screen and (max-width: 576px) {
+    label.logo{
+        font-size:2rem;
+        transition:all 0.4s ease;
+    }
+    .checkbtn{
+        display:block;
+        transition:all 0.4s ease;
+    }
+    ul{
+        position:fixed;
+        width:100%;
+        height:auto;
+        bottom:100%;
+        left:100%;
+        text-align:center;
+        background-color:#8D448B;
+        transition:all 0.4s ease;
+    }
+    nav ul li{
+        display:block;
+        line-height:3rem;
+        transition:all 0.4s ease;
+    }
+    .active{
+        background-color:#8D448B;
+        transition:all 0.4s ease;
+    }
+    nav ul li a{
+        color:rgb(255, 255, 255);
+        transition:all 0.4s ease;
+    }
+    nav button{
+        display:none;
+        transition:all 0.4s ease;
+    }
+    #check:checked~ul{
+        bottom:43.3rem;
+        left:0;
+        transition:all 0.4s ease;
+    }
+}
+/* responsive mobile approach end */

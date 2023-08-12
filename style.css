@@ -38,6 +38,21 @@ body{
     line-height:1.5rem;
     transition:all 0.4s ease;
 }
+.primary-header{
+    text-align:center;
+    line-height:2.5rem;
+    margin:5rem 0;
+}
+.primary-header-p{
+    color:#fd0082;
+    font-size:0.8rem;
+    font-weight:600;
+    letter-spacing:0.1rem;
+}
+.primary-header-h4{
+    color:#02073E;
+    letter-spacing:0.1rem;
+}
 /* shared styling end */
 /* navbar styling start  */
 nav{
@@ -144,6 +159,14 @@ header{
     width:25rem;
 }
 /* header banner end */
+/* section 1 styling start  */
+.section-1-items-text i{
+    font-size:2rem;
+    background:linear-gradient(324deg, #FFCC40 0%, rgba(255, 204, 64, 0.50) 100%);
+    padding:1rem;
+    border-radius:1rem;
+}
+/* section 1 styling end  */
 /* responsive tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     label.logo{
@@ -206,7 +229,7 @@ header{
     .header-banner-items-text p{
         width:80%;
         text-align:center;
-        margin:0rem auto;
+        margin:0rem auto 2rem;
     }
     .searchbar-and-button{
         display:flex;
@@ -223,7 +246,7 @@ header{
         color:white;
         font-weight:600;
         width: 50%;
-        margin:0rem auto;
+        margin:0rem 2.5rem 0rem;
     }
     .header-banner-items-text button:hover{
         background:transparent;
@@ -233,7 +256,7 @@ header{
     }
     .sponsor{
         flex-direction:column;
-        gap:3.5rem;
+        gap:5rem;
     }
 
     .sponsor p{

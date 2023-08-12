@@ -15,7 +15,7 @@ body{
     padding:0.5rem 0.8rem;
     margin-right:1rem;
     border-radius:0.25rem;
-    color:#8D448B;
+    color:#fd0082;
     font-weight:600;
     transition:all 0.4s ease;
 }
@@ -23,12 +23,26 @@ body{
     background:transparent;
     color:white;
 }
+.primary-h1{
+    font-size:3.5rem;
+    color:#02073E;
+    font-weight:600;
+    line-height:4.5rem;
+    transition:all 0.4s ease;
+}
+.primary-p{
+    font-size:0.8rem;
+    color:#02073E;
+    width: 20rem;
+    line-height:1.5rem;
+    transition:all 0.4s ease;
+}
 /* shared styling end */
 /* navbar styling start  */
 nav{
     width:100%;
     height:5rem;
-    background-color:purple;
+    background-color:#fd0082;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -56,7 +70,7 @@ nav ul li a{
     transition:all 0.4s ease;
 }
 .active,a:hover{
-    background-color:rgb(238, 110, 231);
+    background-color:#3b001faf;
     transition:all 0.4s ease;
 }
 .checkbtn{
@@ -74,6 +88,52 @@ nav ul li a{
     transition:all 0.4s ease;
 }
 /* navbar styling end  */
+/* header banner start  */
+.header-banner-item-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:800px;
+    margin:5rem auto;
+    padding:2rem;
+}
+.header-banner-items-text{
+    display:flex;
+    flex-direction:column;
+    gap:2.5rem;
+}
+.header-banner-items-text h1{
+    width:30rem;
+}
+.searchbar-and-button{
+    display:flex;
+    gap:1rem;
+}
+.header-banner-items-text input{
+    width:20rem;
+    height:2.5rem;
+    border:none;
+    box-shadow:1px 1px 10px rgba(128, 128, 128, 0.223);
+    border-radius:0.3rem;
+}
+.header-banner-items-text button{
+    background:#fd0082;
+    color:white;
+    width:8rem;
+    height:2.5rem;
+    overflow:hidden;
+}
+.sponsor{
+    display:flex;
+    gap:2rem;
+}
+.sponsor p{
+    width:auto;
+}
+.header-banner-items-picture img{
+    width:25rem;
+}
+/* header banner end */
 /* responsive tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     label.logo{
@@ -85,13 +145,13 @@ nav ul li a{
         transition:all 0.4s ease;
     }
     ul{
-        position:fixed;
+        position:absolute;
         width:100%;
         height:auto;
-        top:5rem;
-        left:100%;
+        top:-100%;
+        left:-100%;
         text-align:center;
-        background-color:#8D448B;
+        background-color:#fd0082;
         transition:all 0.4s ease;
     }
     nav ul li{
@@ -112,8 +172,69 @@ nav ul li a{
         transition:all 0.4s ease;
     }
     #check:checked~ul{
+        top:5rem;
         left:0;
         transition:all 0.4s ease;
+    }
+    .header-banner-item-container{
+        flex-direction:column;
+        gap:2rem;
+        justify-content:center;
+        margin:2rem auto;
+    }
+    .header-banner-items-text{
+        display:flex;
+        flex-direction:column;
+        gap:2rem;
+        text-align:center;
+    }
+    .header-banner-items-text h1{
+        width:80%;
+        margin:0rem auto;
+        font-size:2rem;
+    }
+    .header-banner-items-text p{
+        width:80%;
+        text-align:center;
+        margin:0rem auto;
+    }
+    .header-banner-items-text input{
+        border:none;
+        width:80%;
+        margin:0rem auto 1rem;
+        
+    }
+    .header-banner-items-text button{
+        background:#fd0082;
+        color:white;
+        font-weight:600;
+        width: 50%;
+        margin:0rem auto;
+    }
+    .header-banner-items-text button:hover{
+        background:transparent;
+        color:#fd0082;
+        border:2px solid #fd0082;
+        overflow:hidden;
+    }
+    .sponsor{
+        flex-direction:column;
+        gap:2rem;
+    }
+
+    .sponsor p{
+        font-size:1rem;
+        border-bottom:2px solid #fd0082;
+        padding:1rem 0;
+    }
+    .header-banner-items-picture{
+        display:flex;
+        justify-content: center;
+    }
+    .header-banner-items-picture img{
+        width:80%;
+        margin:2rem auto;
+        padding:1rem;
     }
 }
 /* responsive table approach end */
@@ -129,13 +250,14 @@ nav ul li a{
         transition:all 0.4s ease;
     }
     ul{
-        position:fixed;
+        position:absolute;
         width:100%;
         height:auto;
-        top:5rem;
-        left:100%;
+        top:-100%;
+        left:-100%;
+        overflow:hidden;
         text-align:center;
-        background-color:#8D448B;
+        background-color:#fd0082;
         transition:all 0.4s ease;
     }
     nav ul li{
@@ -155,9 +277,70 @@ nav ul li a{
         display:none;
         transition:all 0.4s ease;
     }
+    
     #check:checked~ul{
+        top:5rem;
         left:0;
+        overflow:hidden;
         transition:all 0.4s ease;
+    }
+    .header-banner-item-container{
+        flex-direction:column;
+        gap:2rem;
+        justify-content:center;
+        margin:2rem auto;
+    }
+    .header-banner-items-text{
+        display:flex;
+        flex-direction:column;
+        gap:2rem;
+        text-align:center;
+    }
+    .header-banner-items-text h1{
+        width:90%;
+        margin:0rem auto;
+        font-size:1.5rem;
+    }
+    .header-banner-items-text p{
+        width:80%;
+        text-align:center;
+        margin:0rem auto;
+    }
+    .searchbar-and-button{
+        display:flex;
+        flex-direction:column;
+    }
+    .header-banner-items-text input{
+        border:none;
+        width:80%;
+        margin:0rem auto 1rem;
+        
+    }
+    .header-banner-items-text button{
+        background:#fd0082;
+        color:white;
+        font-weight:600;
+        width: 50%;
+        margin:1rem auto 0;
+        
+    }
+    .sponsor{
+        flex-direction:column;
+        gap:2rem;
+    }
+    .sponsor p{
+        font-size:1rem;
+        border-bottom:2px solid #fd0082;
+        padding:1rem 0;
+    }
+    .header-banner-items-picture{
+        display:flex;
+        justify-content: center;
+    }
+    .header-banner-items-picture img{
+        width:80%;
+        margin:2rem auto;
+        padding:1rem;
     }
 }
 /* responsive mobile approach end */

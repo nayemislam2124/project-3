@@ -311,7 +311,7 @@ header{
     }
     .section-1-item-container{
         flex-direction:column;
-        gap:3rem;
+        gap:6rem;
         margin:6rem auto;
     }
     .section-1-items-text{
@@ -448,7 +448,7 @@ header{
     }
     .section-1-item-container{
         flex-direction:column;
-        gap:3rem;
+        gap:6rem;
         margin:6rem auto;
     }
     .section-1-items-text{

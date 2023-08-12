@@ -34,6 +34,7 @@ body{
     font-size:0.8rem;
     color:#02073E;
     width: 20rem;
+    height:auto;
     line-height:1.5rem;
     transition:all 0.4s ease;
 }
@@ -89,6 +90,9 @@ nav ul li a{
 }
 /* navbar styling end  */
 /* header banner start  */
+header{
+    background-color:#F6F8FB;
+}
 .header-banner-item-container{
     display:flex;
     justify-content:center;
@@ -198,6 +202,10 @@ nav ul li a{
         text-align:center;
         margin:0rem auto;
     }
+    .searchbar-and-button{
+        display:flex;
+        gap:2rem;
+    }
     .header-banner-items-text input{
         border:none;
         width:80%;
@@ -219,7 +227,7 @@ nav ul li a{
     }
     .sponsor{
         flex-direction:column;
-        gap:2rem;
+        gap:3.5rem;
     }
 
     .sponsor p{
@@ -304,11 +312,14 @@ nav ul li a{
     .header-banner-items-text p{
         width:80%;
         text-align:center;
-        margin:0rem auto;
+        margin:0rem auto 2rem;
     }
     .searchbar-and-button{
         display:flex;
         flex-direction:column;
+    }
+    .serchbar-and-button{
+        gap:1.5rem;
     }
     .header-banner-items-text input{
         border:none;
@@ -322,11 +333,16 @@ nav ul li a{
         font-weight:600;
         width: 50%;
         margin:1rem auto 0;
-        
+    }
+    .header-banner-items-text button:hover{
+        background:transparent;
+        color:#fd0082;
+        border:2px solid #fd0082;
+        overflow:hidden;
     }
     .sponsor{
         flex-direction:column;
-        gap:2rem;
+        gap:3rem;
     }
     .sponsor p{
         font-size:1rem;

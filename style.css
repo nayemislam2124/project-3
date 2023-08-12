@@ -53,6 +53,9 @@ body{
     color:#02073E;
     letter-spacing:0.1rem;
 }
+.primary-h6{
+    font-size:0.8rem;
+}
 /* shared styling end */
 /* navbar styling start  */
 nav{
@@ -160,11 +163,44 @@ header{
 }
 /* header banner end */
 /* section 1 styling start  */
-.section-1-items-text i{
+.section-1-item-container{
+    display:flex;
+    max-width:800px;
+    justify-content:center;
+    gap:2rem;
+    margin:2rem auto;
+    text-align:center;
+}
+.section-1-items-text{
+    line-height:3rem;
+}
+.section-1-items-text #one{
     font-size:2rem;
     background:linear-gradient(324deg, #FFCC40 0%, rgba(255, 204, 64, 0.50) 100%);
     padding:1rem;
     border-radius:1rem;
+}
+.section-1-items-text #two{
+    font-size:2rem;
+    background:linear-gradient(#25D9D9, #25D9D980);
+    padding:1rem;
+    border-radius:1rem;
+}
+.section-1-items-text #three{
+    font-size:2rem;
+    background:linear-gradient(319deg, #0898E7 0%, rgba(8, 152, 231, 0.50) 100%);
+    padding:1rem;
+    border-radius:1rem;
+}
+.section-1-items-text #four{
+    font-size:2rem;
+    background:linear-gradient(323deg, #FF9066 0%, rgba(255, 144, 102, 0.50) 100%);
+    padding:1rem;
+    border-radius:1rem;
+}
+.section-1-items-text p{
+    font-size:0.7rem;
+    width:auto;
 }
 /* section 1 styling end  */
 /* responsive tablet approach start  */
@@ -386,6 +422,24 @@ header{
         width:80%;
         margin:2rem auto;
         padding:1rem;
+    }
+    .section-1-item-container{
+        flex-direction:column;
+        gap:3rem;
+        margin:6rem auto;
+    }
+    .section-1-items-text{
+        line-height:4rem;
+        border:1px solid rgba(128, 128, 128, 0.263);
+        padding:2rem;
+        width:80%;
+        margin:0rem auto;
+        box-shadow:1px 1px 10px rgba(128, 128, 128, 0.235);
+        border-radius:1rem;
+    }
+    .section-1-items-text p{
+        font-size:0.8rem;
+        width:auto;
     }
 }
 /* responsive mobile approach end */

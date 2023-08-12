@@ -309,6 +309,29 @@ header{
         margin:2rem auto;
         padding:1rem;
     }
+    .section-1-item-container{
+        flex-direction:column;
+        gap:3rem;
+        margin:6rem auto;
+    }
+    .section-1-items-text{
+        line-height:4rem;
+        border:1px solid rgba(128, 128, 128, 0.263);
+        padding:2rem;
+        width:80%;
+        margin:0rem auto;
+        box-shadow:1px 1px 10px rgba(128, 128, 128, 0.235);
+        border-radius:1rem;
+    }
+    .section-1-items-text h6{
+        font-size:1rem;
+        letter-spacing:0.1rem;
+    }
+    .section-1-items-text p{
+        font-size:1rem;
+        font-weight:500;
+        width:auto;
+    }
 }
 /* responsive table approach end */
 /* responsive mobile approach start  */

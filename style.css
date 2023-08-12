@@ -127,6 +127,12 @@ header{
     height:2.5rem;
     overflow:hidden;
 }
+.header-banner-items-text button:hover{
+    background:transparent;
+    color:#fd0082;
+    border:2px solid #fd0082;
+    overflow:hidden;
+}
 .sponsor{
     display:flex;
     gap:2rem;

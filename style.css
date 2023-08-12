@@ -42,19 +42,23 @@ body{
     text-align:center;
     line-height:2.5rem;
     margin:5rem 0;
+    transition:all 0.4s ease;
 }
 .primary-header-p{
     color:#fd0082;
     font-size:0.8rem;
     font-weight:600;
     letter-spacing:0.1rem;
+    transition:all 0.4s ease;
 }
 .primary-header-h4{
     color:#02073E;
     letter-spacing:0.1rem;
+    transition:all 0.4s ease;
 }
 .primary-h6{
     font-size:0.8rem;
+    transition:all 0.4s ease;
 }
 /* shared styling end */
 /* navbar styling start  */
@@ -170,37 +174,44 @@ header{
     gap:2rem;
     margin:2rem auto;
     text-align:center;
+    transition:all 0.4s ease;
 }
 .section-1-items-text{
     line-height:3rem;
+    transition:all 0.4s ease;
 }
 .section-1-items-text #one{
     font-size:2rem;
     background:linear-gradient(324deg, #FFCC40 0%, rgba(255, 204, 64, 0.50) 100%);
     padding:1rem;
     border-radius:1rem;
+    transition:all 0.4s ease;
 }
 .section-1-items-text #two{
     font-size:2rem;
     background:linear-gradient(#25D9D9, #25D9D980);
     padding:1rem;
     border-radius:1rem;
+    transition:all 0.4s ease;
 }
 .section-1-items-text #three{
     font-size:2rem;
     background:linear-gradient(319deg, #0898E7 0%, rgba(8, 152, 231, 0.50) 100%);
     padding:1rem;
     border-radius:1rem;
+    transition:all 0.4s ease;
 }
 .section-1-items-text #four{
     font-size:2rem;
     background:linear-gradient(323deg, #FF9066 0%, rgba(255, 144, 102, 0.50) 100%);
     padding:1rem;
     border-radius:1rem;
+    transition:all 0.4s ease;
 }
 .section-1-items-text p{
     font-size:0.7rem;
     width:auto;
+    transition:all 0.4s ease;
 }
 /* section 1 styling end  */
 /* responsive tablet approach start  */

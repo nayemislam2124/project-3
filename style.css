@@ -321,7 +321,7 @@ header{
 }
 /* section 4 styling end */
 /* section 5 styling start  */
-/* .section-5-item-container{
+.section-5-item-container{
     max-width:800px;
     display:flex;
     justify-content:center;
@@ -349,7 +349,7 @@ header{
     width:40%;
     border:2px solid #fd0082;
     transition:all 0.4s ease;
-} */
+}
 /* section 5 styling end */
 /* responsive tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -409,14 +409,14 @@ header{
     }
     .header-banner-items-text h1{
         width:80%;
-        margin:0rem auto;
+        margin:3rem auto;
         font-size:2rem;
         transition:all 0.4s ease;
     }
     .header-banner-items-text p{
         width:80%;
         text-align:center;
-        margin:0rem auto 2rem;
+        margin:3rem auto 2rem;
         transition:all 0.4s ease;
     }
     .searchbar-and-button{
@@ -427,7 +427,7 @@ header{
     .header-banner-items-text input{
         border:none;
         width:80%;
-        margin:0rem auto 1rem;
+        margin:3rem auto 1rem;
         transition:all 0.4s ease;
         
     }
@@ -436,7 +436,7 @@ header{
         color:white;
         font-weight:600;
         width: 50%;
-        margin:0rem 2.5rem 0rem;
+        margin:3rem 2.5rem 0rem;
         transition:all 0.4s ease;
     }
     .header-banner-items-text button:hover{
@@ -479,7 +479,7 @@ header{
         line-height:4rem;
         padding:2rem;
         width:80%;
-        margin:0rem auto;
+        margin:3rem auto;
         box-shadow:3px 3px 10px rgba(128, 128, 128, 0.164);
         border-radius:1rem;
         transition:all 0.4s ease;
@@ -505,7 +505,7 @@ header{
         box-shadow:3px 3px 10px rgba(128, 128, 128, 0.164);
         border-radius:1rem;
         width:80%;
-        margin:1rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-2-items-picture img{
@@ -517,17 +517,17 @@ header{
         width:80%;
         gap:3rem;
         text-align:center;
-        margin:2rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-2-items-text h1{
         font-size:2rem;
-        margin:0rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-2-items-text p{
         width:auto;
-        margin:0rem auto;
+        margin:3rem auto;
         font-size:1rem;
         font-weight:500;
         line-height:2.5rem;
@@ -535,7 +535,7 @@ header{
     }
     .section-2-items-text button{
         width:50%;
-        margin:0rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-3-item-container{
@@ -552,7 +552,7 @@ header{
     }
     .section-3-items-text h2{
         width:80%;
-        margin:0rem auto;
+        margin:3rem auto;
         line-height:3rem;
         transition:all 0.4s ease;
     }
@@ -569,18 +569,18 @@ header{
         font-weight:500;
         line-height:2.5rem;
         text-align:center;
-        margin:0rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-3-items-video {
         width:80%;
-        margin:1rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-3-items-video iframe{
         width:100%;
         height:35vh;
-        margin:0rem auto;
+        margin:3rem auto;
         transition:all 0.4s ease;
     }
     .section-4-item-container{
@@ -620,6 +620,49 @@ header{
     .box-1 h6{
         color:#fd0082;
         font-size:1rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-item-container{
+        flex-direction:column;
+        width:100%;
+        gap:4rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-picture{
+        box-shadow:3px 3px 10px rgba(128, 128, 128, 0.164);
+        border-radius:1rem;
+        width:80%;
+        margin:3rem auto;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-picture img{
+        width:100%;
+        padding:1rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text {
+        width:80%;
+        gap:3rem;
+        text-align:center;
+        margin:2rem auto;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text h1{
+        font-size:2rem;
+        margin:0rem auto;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text p{
+        width:auto;
+        margin:0rem auto;
+        font-size:1rem;
+        font-weight:500;
+        line-height:2.5rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text button{
+        width:50%;
+        margin:0rem auto;
         transition:all 0.4s ease;
     }
 }
@@ -884,6 +927,46 @@ header{
     }
     .box-1 h6{
         color:#fd0082;
+        transition:all 0.4s ease;
+    }
+    .section-5-item-container{
+        flex-direction:column;
+        width:100%;
+        gap:3rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-picture{
+        box-shadow:3px 3px 10px rgba(128, 128, 128, 0.164);
+        border-radius:1rem;
+        width:80%;
+        margin:0rem auto;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-picture img{
+        width:100%;
+        padding:1rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text {
+        width:80%;
+        gap:2.5rem;
+        text-align:center;
+        margin:2rem auto;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text h1{
+        font-size:1.5rem;
+        margin:0rem auto;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text p{
+        width:auto;
+        margin:0rem auto;
+        font-size:0.9rem;
+        transition:all 0.4s ease;
+    }
+    .section-5-items-text button{
+        width:100%;
         transition:all 0.4s ease;
     }
 }

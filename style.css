@@ -558,7 +558,7 @@ header{
     }
     .section-3-items-text button{
         width: 40%;
-        margin:0rem auto;
+        margin:1rem auto;
         border:2px solid #fd0082;
         transition:all 0.4s ease;
     }
@@ -574,7 +574,7 @@ header{
     }
     .section-3-items-video {
         width:80%;
-        margin:0rem auto;
+        margin:1rem auto;
         transition:all 0.4s ease;
     }
     .section-3-items-video iframe{
@@ -639,8 +639,6 @@ header{
         width:100%;
         padding:2rem;
         transition:all 0.4s ease;
-        position:relative;
-        top:2.175rem;
     }
     .section-5-items-text {
         width:80%;
@@ -873,7 +871,7 @@ header{
     }
     .section-3-items-text button{
         width: 80%;
-        margin:0rem auto;
+        margin:1rem auto 1rem;
         border:2px solid #fd0082;
         transition:all 0.4s ease;
     }
@@ -947,8 +945,6 @@ header{
     .section-5-items-picture img{
         width:100%;
         padding:1rem;
-        position:relative;
-        top:2rem;
         transition:all 0.4s ease;
     }
     .section-5-items-text {
